@@ -91,4 +91,3 @@ SELECT country.name, COUNT(city.city_id) AS num_cities
 FROM country
 JOIN city ON country.country_id = city.country_id
 GROUP BY country.name;
-
