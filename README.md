@@ -111,3 +111,7 @@ from country
 inner join city
 on country.code = city.countrycode
 ORDER BY gnp/city.Population DESC;
+
+---
+Created by Susana-dLG
+May 2025
